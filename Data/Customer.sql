@@ -6,7 +6,8 @@
      ,C.ExchangeCode
      ,P.FullName
      ,P.NationalId
-     ,ca.CustomerAddressId
+     ,CA.CustomerAddressId
+     ,A.AccountId
   FROM    Sls3.Customer AS C
       JOIN Gnr3.Party AS P
         ON C.PartyRef = P.PartyId
@@ -14,6 +15,20 @@
         ON C.CustomerId = CA.CustomerRef
           AND
           CA.IsDefault = 1
+          AND
+          CA.State=1
+          AND
+          CA.Type=1 --تحویل کالا
+      Left JOIN Fin3.Account AS A
+        ON P.PartyId = A.PartyRef
+          AND
+          A.AccountTypeRef=2 --نقدی
+
+
+
+
+
+
 
 
 
