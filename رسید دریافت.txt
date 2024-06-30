@@ -1,0 +1,45 @@
+{
+	"Date":"\/Date(1697021382523+0330)\/",
+	"Description":"String content",
+	"Description_En":"String content",
+    "CashID" :1,
+"ReceiptDeposits": [
+    {
+      "AccountingOperationID": 8,
+      "Amount": 12678967.543233,
+      "BankAccountID": 16,
+      "BaseCurrencyExchangeRate": 1,
+      "CashFlowFactorID": 560,
+      "CounterPartDLCode": "30508",
+      "Date": "\/Date(1697021382523+0330)\/",
+      "Description": "Description",
+      "Description_En": "Description_En",
+      "Number": "12345",
+      "OperationalCurrencyExchangeRate": 12678967.543233
+    }
+  ],
+	
+	"ReceiptReceivableCheques":[{
+		"AccountNumber":"23432",
+		"AccountingOperationID":6,
+		"AgreementDate":"\/Date(1697021382523+0330)\/",
+		"Amount":12678967.543233,
+		"BankBranchCode":"432",
+		"BankBranchName":"String content",
+		"BankID":3,
+
+		"BaseCurrencyExchangeRate":1,
+		"CashFlowFactorID":560,
+
+		"CounterPartDLCode":"30508",
+
+		"Description":"String content",
+		"Description_En":"String content",
+		"DueDate": "\/Date(1697021382523+0330)\/",
+		"InternationalNumber":"11111111111111111111111111",
+		"OperationalCurrencyExchangeRate":1,
+		"SayadNumber":"1234569890123456",
+		"SerialNumber":"280"
+	}]
+
+}
